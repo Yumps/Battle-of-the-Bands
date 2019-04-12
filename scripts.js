@@ -1,9 +1,7 @@
 let bandNumber = 1;
 
 const takeNumber = function(band) {
-  let newString = `${bandNumber}. ${band}`;
-  bandNumber++;
-  return newString;
+  return `${bandNumber++}. ${band}`;
 };
 
 const scum = takeNumber("Galactic Scum");
